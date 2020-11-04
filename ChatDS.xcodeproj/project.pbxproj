@@ -3,23 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2EC2690B88F37D851222052 /* Pods_ChatDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54C8A80C10326C95CB4C8B4 /* Pods_ChatDS.framework */; };
+		E802F78E2551D39D00C7B82A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F78D2551D39D00C7B82A /* User.swift */; };
+		E802F7912551D56500C7B82A /* ThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F7902551D56500C7B82A /* ThreadViewModel.swift */; };
+		E802F7942551D84100C7B82A /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F7932551D84100C7B82A /* Participant.swift */; };
+		E802F7972551DAB100C7B82A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F7962551DAB100C7B82A /* Message.swift */; };
+		E802F79A2551E2A400C7B82A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F7992551E2A400C7B82A /* LoginViewModel.swift */; };
+		E802F79D2551E6BC00C7B82A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F79C2551E6BC00C7B82A /* AuthService.swift */; };
+		E802F7A02551EA1900C7B82A /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F79F2551EA1900C7B82A /* FirebaseAuthService.swift */; };
+		E802F7C925520E8400C7B82A /* StorageServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F7C825520E8400C7B82A /* StorageServiceInterface.swift */; };
+		E802F7CD25520EC200C7B82A /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F7CC25520EC200C7B82A /* StorageService.swift */; };
+		E802F7D1255215D600C7B82A /* RemoteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F7D0255215D600C7B82A /* RemoteStorage.swift */; };
+		E802F7D4255215F000C7B82A /* RemoteStorageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F7D3255215F000C7B82A /* RemoteStorageInterface.swift */; };
+		E802F7DD2552262100C7B82A /* ThreadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802F7DC2552262100C7B82A /* ThreadsView.swift */; };
+		E81151B92552271300B77BD8 /* ThreadsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81151B82552271300B77BD8 /* ThreadsViewModel.swift */; };
 		E8823A162551AC6B00040962 /* ChatDSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8823A152551AC6B00040962 /* ChatDSApp.swift */; };
-		E8823A182551AC6B00040962 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8823A172551AC6B00040962 /* ContentView.swift */; };
+		E8823A182551AC6B00040962 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8823A172551AC6B00040962 /* LoginView.swift */; };
 		E8823A1A2551AC6F00040962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8823A192551AC6F00040962 /* Assets.xcassets */; };
 		E8823A1D2551AC6F00040962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8823A1C2551AC6F00040962 /* Preview Assets.xcassets */; };
+		E8823A272551B2F500040962 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8823A262551B2F500040962 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C54C8A80C10326C95CB4C8B4 /* Pods_ChatDS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatDS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE14CAE42E27208F7DA3B810 /* Pods-ChatDS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDS.release.xcconfig"; path = "Target Support Files/Pods-ChatDS/Pods-ChatDS.release.xcconfig"; sourceTree = "<group>"; };
+		E802F78D2551D39D00C7B82A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E802F7902551D56500C7B82A /* ThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadViewModel.swift; sourceTree = "<group>"; };
+		E802F7932551D84100C7B82A /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		E802F7962551DAB100C7B82A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E802F7992551E2A400C7B82A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E802F79C2551E6BC00C7B82A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		E802F79F2551EA1900C7B82A /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
+		E802F7C825520E8400C7B82A /* StorageServiceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageServiceInterface.swift; sourceTree = "<group>"; };
+		E802F7CC25520EC200C7B82A /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		E802F7D0255215D600C7B82A /* RemoteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RemoteStorage.swift; path = /Users/denyssemerych/ChatDS/ChatDS/StorageService/RemoteStorage.swift; sourceTree = "<absolute>"; };
+		E802F7D3255215F000C7B82A /* RemoteStorageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteStorageInterface.swift; sourceTree = "<group>"; };
+		E802F7DC2552262100C7B82A /* ThreadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsView.swift; sourceTree = "<group>"; };
+		E81151B82552271300B77BD8 /* ThreadsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadsViewModel.swift; sourceTree = "<group>"; };
 		E8823A122551AC6B00040962 /* ChatDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8823A152551AC6B00040962 /* ChatDSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDSApp.swift; sourceTree = "<group>"; };
-		E8823A172551AC6B00040962 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8823A172551AC6B00040962 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E8823A192551AC6F00040962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8823A1C2551AC6F00040962 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8823A1E2551AC6F00040962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8823A262551B2F500040962 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAC90A4A512FDFF7CA186155 /* Pods-ChatDS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDS.debug.xcconfig"; path = "Target Support Files/Pods-ChatDS/Pods-ChatDS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +59,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2EC2690B88F37D851222052 /* Pods_ChatDS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4699D560539DC988A55BC6A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C54C8A80C10326C95CB4C8B4 /* Pods_ChatDS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A5E21BC43D34A7CC6A764BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAC90A4A512FDFF7CA186155 /* Pods-ChatDS.debug.xcconfig */,
+				DE14CAE42E27208F7DA3B810 /* Pods-ChatDS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E802F7C52551F6E300C7B82A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E8823A172551AC6B00040962 /* LoginView.swift */,
+				E802F7992551E2A400C7B82A /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E802F7C62551F6F300C7B82A /* AuthService */ = {
+			isa = PBXGroup;
+			children = (
+				E802F79F2551EA1900C7B82A /* FirebaseAuthService.swift */,
+				E802F79C2551E6BC00C7B82A /* AuthService.swift */,
+			);
+			path = AuthService;
+			sourceTree = "<group>";
+		};
+		E802F7CF25520ED900C7B82A /* StorageService */ = {
+			isa = PBXGroup;
+			children = (
+				E802F7D0255215D600C7B82A /* RemoteStorage.swift */,
+				E802F7C825520E8400C7B82A /* StorageServiceInterface.swift */,
+				E802F7CC25520EC200C7B82A /* StorageService.swift */,
+				E802F7D3255215F000C7B82A /* RemoteStorageInterface.swift */,
+			);
+			path = StorageService;
+			sourceTree = "<group>";
+		};
+		E802F7D62552255D00C7B82A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E802F7902551D56500C7B82A /* ThreadViewModel.swift */,
+				E802F7932551D84100C7B82A /* Participant.swift */,
+				E802F78D2551D39D00C7B82A /* User.swift */,
+				E802F7962551DAB100C7B82A /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E802F7E0255226A800C7B82A /* Threads */ = {
+			isa = PBXGroup;
+			children = (
+				E802F7DC2552262100C7B82A /* ThreadsView.swift */,
+				E81151B82552271300B77BD8 /* ThreadsViewModel.swift */,
+			);
+			path = Threads;
+			sourceTree = "<group>";
+		};
 		E8823A092551AC6B00040962 = {
 			isa = PBXGroup;
 			children = (
 				E8823A142551AC6B00040962 /* ChatDS */,
+				E8823A192551AC6F00040962 /* Assets.xcassets */,
 				E8823A132551AC6B00040962 /* Products */,
+				6A5E21BC43D34A7CC6A764BA /* Pods */,
+				4699D560539DC988A55BC6A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,9 +155,12 @@
 			isa = PBXGroup;
 			children = (
 				E8823A152551AC6B00040962 /* ChatDSApp.swift */,
-				E8823A172551AC6B00040962 /* ContentView.swift */,
-				E8823A192551AC6F00040962 /* Assets.xcassets */,
-				E8823A1E2551AC6F00040962 /* Info.plist */,
+				E802F7C52551F6E300C7B82A /* Login */,
+				E802F7E0255226A800C7B82A /* Threads */,
+				E802F7C62551F6F300C7B82A /* AuthService */,
+				E802F7CF25520ED900C7B82A /* StorageService */,
+				E802F7D62552255D00C7B82A /* Models */,
+				E8823A292551B2FC00040962 /* Plists */,
 				E8823A1B2551AC6F00040962 /* Preview Content */,
 			);
 			path = ChatDS;
@@ -69,6 +174,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E8823A292551B2FC00040962 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				E8823A262551B2F500040962 /* GoogleService-Info.plist */,
+				E8823A1E2551AC6F00040962 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8823A212551AC6F00040962 /* Build configuration list for PBXNativeTarget "ChatDS" */;
 			buildPhases = (
+				BAC30EC0AB2FAAB7E8E6AD87 /* [CP] Check Pods Manifest.lock */,
 				E8823A0E2551AC6B00040962 /* Sources */,
 				E8823A0F2551AC6B00040962 /* Frameworks */,
 				E8823A102551AC6B00040962 /* Resources */,
+				CC930DD2391DD5DACED5F30F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +244,74 @@
 			files = (
 				E8823A1D2551AC6F00040962 /* Preview Assets.xcassets in Resources */,
 				E8823A1A2551AC6F00040962 /* Assets.xcassets in Resources */,
+				E8823A272551B2F500040962 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BAC30EC0AB2FAAB7E8E6AD87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatDS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC930DD2391DD5DACED5F30F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatDS/Pods-ChatDS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatDS/Pods-ChatDS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatDS/Pods-ChatDS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8823A0E2551AC6B00040962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8823A182551AC6B00040962 /* ContentView.swift in Sources */,
+				E802F7D1255215D600C7B82A /* RemoteStorage.swift in Sources */,
+				E802F7A02551EA1900C7B82A /* FirebaseAuthService.swift in Sources */,
+				E802F7CD25520EC200C7B82A /* StorageService.swift in Sources */,
+				E802F7C925520E8400C7B82A /* StorageServiceInterface.swift in Sources */,
+				E802F78E2551D39D00C7B82A /* User.swift in Sources */,
+				E802F7912551D56500C7B82A /* ThreadViewModel.swift in Sources */,
+				E8823A182551AC6B00040962 /* LoginView.swift in Sources */,
+				E802F7DD2552262100C7B82A /* ThreadsView.swift in Sources */,
+				E81151B92552271300B77BD8 /* ThreadsViewModel.swift in Sources */,
+				E802F79D2551E6BC00C7B82A /* AuthService.swift in Sources */,
+				E802F79A2551E2A400C7B82A /* LoginViewModel.swift in Sources */,
 				E8823A162551AC6B00040962 /* ChatDSApp.swift in Sources */,
+				E802F7942551D84100C7B82A /* Participant.swift in Sources */,
+				E802F7972551DAB100C7B82A /* Message.swift in Sources */,
+				E802F7D4255215F000C7B82A /* RemoteStorageInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +436,7 @@
 		};
 		E8823A222551AC6F00040962 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC90A4A512FDFF7CA186155 /* Pods-ChatDS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -271,7 +444,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ChatDS/Preview Content\"";
 				DEVELOPMENT_TEAM = 6X8V5WVDK8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ChatDS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ChatDS/Plists/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -286,6 +459,7 @@
 		};
 		E8823A232551AC6F00040962 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE14CAE42E27208F7DA3B810 /* Pods-ChatDS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +467,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ChatDS/Preview Content\"";
 				DEVELOPMENT_TEAM = 6X8V5WVDK8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ChatDS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ChatDS/Plists/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

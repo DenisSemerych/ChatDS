@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>446451944340-fq9v1bdb54lcd3mqmljnlmef84f1ftto.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.446451944340-fq9v1bdb54lcd3mqmljnlmef84f1ftto</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBoXpiJb7yBtE8LarxwdSI1veYAx1vr22s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>446451944340</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dsemeryc.chatds</string>
+	<key>PROJECT_ID</key>
+	<string>chatds-dd115</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatds-dd115.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:446451944340:ios:9bf5e3cb03a69929561d81</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatds-dd115.firebaseio.com</string>
+</dict>
+</plist>
